@@ -41,3 +41,13 @@ Proyek ini cocok sebagai latihan **frontend dasar**, **logika JavaScript**, dan 
 
 ## 📂 Struktur Folder
 
+> ⚠️ Catatan: GitHub Pages **case-sensitive** dan tidak mendukung nama file dengan spasi. Pastikan penamaan file konsisten.
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+
+### 1. Clone repository
+```bash
+git clone https://github.com/username/nama-repo.git
+
