@@ -21,7 +21,6 @@ main {
 }
 
 body {
-    background: url('../image/bg Game.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -151,4 +150,5 @@ body {
 #restartBtn:hover {
     background: #2A2343;
 }
+
 
