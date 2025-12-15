@@ -31,7 +31,7 @@ main {
 
 
 body {
-    background: url('../image/bg-game.jpg') no-repeat center center;
+    background: url('/Galxy/image/bg-game.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -161,6 +161,7 @@ body {
 #restartBtn:hover {
     background: #2A2343;
 }
+
 
 
 
