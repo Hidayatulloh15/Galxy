@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <!-- Mengatur encoding agar semua karakter tampil normal -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Membuat tampilan responsif di HP -->
+
+    <title>TicTacToe Games</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Menghubungkan file CSS -->
+</head>
+<body>
+    
+    <main>
+        <!-- Container utama (tengah layar secara vertical & horizontal) -->
+
+        <header id="header">
+            <!-- Bagian untuk memilih player X atau O -->
+
+            <div class="player player-active"
+                 id="xPlayerDisplay"
+                 onclick="choosePlayer('X')">
+                 <!-- Tombol Player X (default aktif) -->
+                 X
+            </div>
+            
+            <h3 id="titleHeader">Pilih </h3> 
+            <!-- Teks status: Pilih / X Win / O Win / Draw -->
+
+            <div class="player"
+                 id="oPlayerDisplay"
+                 onclick="choosePlayer('O')">
+                 <!-- Tombol Player O -->
+                 O
+            </div>
+        </header>
+        <div id="difficulty" class="difficulty-container">
+            <div class="cell player-active" id="easyBtn">Keroco</div>
+            <div class="cell" id="mediumBtn">Pengalaman</div>
+            <div class="cell" id="hardBtn">Dewa</div>
+        </div>
+
+        <div id="board">
+            <!-- Grid papan 3x3 -->
+            <div class="cell"></div> <!-- 1 -->
+            <div class="cell"></div> <!-- 2 -->
+            <div class="cell"></div> <!-- 3 -->
+            <div class="cell"></div> <!-- 4 -->
+            <div class="cell"></div> <!-- 5 -->
+            <div class="cell"></div> <!-- 6 -->
+            <div class="cell"></div> <!-- 7 -->
+            <div class="cell"></div> <!-- 8 -->
+            <div class="cell"></div> <!-- 9 -->
+        </div>
+
+        <button id="restartBtn">
+            <!-- Tombol restart, muncul setelah game selesai -->
+            Ulang
+        </button>
+    </main>
+
+    <script src="script.js"></script>
+    <!-- Memuat logic game -->
+</body>
+</html>
