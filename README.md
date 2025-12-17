@@ -1,5 +1,7 @@
 # 🎮 Tic Tac Toe Web Game
 
+--Pilih tingkat kesulitan terlebih dahulu, kemudian pilih antara X dan O untuk memulai permainan--
+
 Aplikasi **Tic Tac Toe berbasis web** yang dibangun menggunakan **HTML, CSS, dan JavaScript**, dengan tampilan modern dan background futuristik. Proyek ini di-deploy sebagai **static website menggunakan GitHub Pages**.
 
 ---
@@ -14,13 +16,13 @@ Website ini merupakan game Tic Tac Toe (3x3) yang memungkinkan pemain bermain me
 
 Proyek ini cocok sebagai latihan **frontend dasar**, **logika JavaScript**, dan **deployment web statis**.
 
----
+--
 
 ## ✨ Fitur Utama
 
 - 🎯 Mode Player vs AI
 - 🧠 3 tingkat kesulitan AI:
-  - Keroco (Easy)
+  - Pemula (Easy)
   - Pengalaman (Medium)
   - Dewa (Hard / Minimax)
 - 🎨 Background gambar full-screen
@@ -35,14 +37,8 @@ Proyek ini cocok sebagai latihan **frontend dasar**, **logika JavaScript**, dan 
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla JS)  
-- GitHub Pages  
-
----
-
-## 📂 Struktur Folder
-
-> ⚠️ Catatan: GitHub Pages **case-sensitive** dan tidak mendukung nama file dengan spasi. Pastikan penamaan file konsisten.
-
+- GitHub Pages
+  
 ---
 
 ## 🚀 Cara Menjalankan Proyek
