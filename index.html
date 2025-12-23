@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Games</title>
+
+    <!-- Pakai style yang sama -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Style khusus halaman index -->
+    <style>
+        .home {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .home-card {
+            background: rgba(23, 18, 42, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            width: 320px;
+            box-shadow: 0 0 40px rgba(0,0,0,0.6);
+            animation: fadeIn 1s ease;
+        }
+
+        .home-card h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .home-card p {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        .start-btn {
+            display: block;
+            background: linear-gradient(135deg, #1892EA, #A737FF);
+            padding: 12px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .start-btn:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 10px 25px rgba(167,55,255,0.4);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="home">
+        <div class="home-card">
+            <h1>🎮 Tic Tac Toe</h1>
+            <p>Tantang AI dari level Pemula sampai Dewa</p>
+
+            <a href="game.html" class="start-btn">
+                Mulai Permainan
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
